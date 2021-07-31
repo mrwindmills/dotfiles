@@ -1,0 +1,9 @@
+# vim:ft=sh
+# File: $ZSH_DOTFILES_DIR/aliases.d/_less.zal
+# Contents: less aliases
+
+alias less='less -g -x2'
+alias lessn='less -N'
+
+alias less+='sudo less -g -x2'
+alias lessn+='sudo less -gN -x2'

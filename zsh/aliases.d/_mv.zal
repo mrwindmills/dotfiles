@@ -1,0 +1,9 @@
+# vim:ft=sh
+# File: $ZSH_DOTFILES_DIR/aliases.d/_mv.zal
+# Contents: mv aliases
+
+alias mv='mv -v'
+alias mvu='mv -vu'
+
+alias mv+='sudo mv -v'
+alias mvu+='sudo mv -vu'

@@ -1,0 +1,19 @@
+# vim:ft=sh
+# File: $ZSH_DOTFILES_DIR/functions.d/_diff.zfn
+# Contents: Diff functions
+
+function d {
+	if [[ $# -ne 2 ]]; then
+		echo "Usage: d left_file_path right_file_path"
+	else
+		diff -wr "$1" "$2"
+	fi
+}
+
+function dx {
+	if [[ $# -ne 2 ]]; then
+		echo "Usage: dx left_file_path right_file_path"
+	else
+		$XDIFF_TOOL "$1" "$2" &
+	fi
+}

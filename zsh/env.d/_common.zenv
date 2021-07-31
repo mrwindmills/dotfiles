@@ -1,0 +1,18 @@
+# vim:ft=zsh
+# File: $ZSH_DOTFILES_DIR/env.d/_common.zenv
+# Contents: Development Shared Env Variables
+
+export APPLICATIONS_DIR=${HOME}/Aplicacions
+export CODING_DIR=${HOME}/Coding
+
+export CDPATH=".:~:${CODING_DIR}:${DOTFILES_DIR}"
+export PATH="${HOME}/.bin:${PATH}"
+
+# Misc Variables
+export RELEASE=$( lsb_release -c | awk '{ print $2 }' )
+
+export EDITOR="vim"
+export XEDITOR="code"
+
+export DIFF_TOOL="vimdiff"
+export XDIFF_TOOL="meld"

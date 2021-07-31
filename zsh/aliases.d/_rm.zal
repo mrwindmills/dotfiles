@@ -1,0 +1,11 @@
+# vim:ft=sh
+# File: $ZSH_DOTFILES_DIR/aliases.d/_rm.zal
+# Contents: rm aliases
+
+alias rm='rm --preserve-root -f'
+alias rmr='rm --preserve-root -fr'
+alias rmi='rm --preserve-root -i'
+
+alias rm+='sudo rm --preserve-root -f'
+alias rmr+='sudo rm --preserve-root -fr'
+alias rmi+='sudo rm --preserve-root -i'

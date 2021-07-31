@@ -1,0 +1,7 @@
+# vim:ft=sh
+# File: $ZSH_DOTFILES_DIR/aliases.d/_cd.zal
+# Contents: cd aliases
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias cdd='cd -'

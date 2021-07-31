@@ -1,0 +1,6 @@
+# vim:ft=sh
+# File: $ZSH_DOTFILES_DIR/aliases.d/_kill.zal
+# Contents: kill aliases
+
+alias kill9='kill -9'
+alias killa='killall -r -v -I'

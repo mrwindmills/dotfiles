@@ -1,0 +1,6 @@
+# vim:ft=sh
+# File: $ZSH_DOTFILES_DIR/aliases.d/_find.zal
+# Contents: find aliases
+
+alias findn='find . -iname'                           # findn pattern
+alias findr='find . -regextype posix-egrep -iregex'   # findr 'pattern'

@@ -1,0 +1,9 @@
+# vim:ft=sh
+# File: $ZSH_DOTFILES_DIR/aliases.d/_mkdir.zal
+# Contents: mkdir aliases
+
+alias mkdir='mkdir -vp'
+alias mkdirm='mkdir -vpm'        # mkdirm mode (e.g. mkdirm 750 folder)
+
+alias mkdir+='sudo mkdir -vp'
+alias mkdirm+='sudo mkdir -vpm'  # mkdirm+ mode (e.g. mkdirm+ 750 folder)
